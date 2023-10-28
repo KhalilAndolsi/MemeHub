@@ -1,0 +1,46 @@
+.card {
+  background-color: #222;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.card img {
+  height: 150px;
+  object-fit: contain;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.card .downloadBtn {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 12px;
+  position: absolute;
+  outline: none;
+  border: none;
+  right: 5px;
+  bottom: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card .downloadBtn svg {
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.card .downloadBtn:hover {
+  background-color: #f19800;
+}
+
+.card .downloadBtn:hover svg {
+  fill: #222;
+}
